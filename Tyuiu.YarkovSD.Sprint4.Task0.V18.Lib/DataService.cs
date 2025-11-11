@@ -13,5 +13,5 @@ namespace Tyuiu.YarkovSD.Sprint4.Task0.V18.Lib
                     sum += array[i];
             return sum;
         }
-    } 
+    }
 }
