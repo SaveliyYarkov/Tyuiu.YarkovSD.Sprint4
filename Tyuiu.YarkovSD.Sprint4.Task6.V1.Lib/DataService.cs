@@ -10,7 +10,7 @@ namespace Tyuiu.YarkovSD.Sprint4.Task6.V1.Lib
             int a = 0;
             foreach (string i in array)
             {
-                if (i.Length > 0);
+                if (i.Length > 6);
                 {
                     a ++;
                 }
