@@ -8,11 +8,11 @@ namespace Tyuiu.YarkovSD.Sprint4.Task6.V1.Lib
         public int Calculate(string[] array)
         {
             int a = 0;
-            foreach (string i in array)
+            for (int i = 0; i < array.Length; i++)
             {
-                if (i.Length > 6);
+                if (array[i].Length > 6)
                 {
-                    a ++;
+                    a++;
                 }
             }
             return a;
