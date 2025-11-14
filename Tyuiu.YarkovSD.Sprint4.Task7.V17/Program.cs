@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tyuiu.YarkovSD.Sprint4.Task7.V17.Lib;
+
 namespace Tyuiu.YarkovSD.Sprint4.Task7.V17
 {
     class Program
@@ -22,17 +23,19 @@ namespace Tyuiu.YarkovSD.Sprint4.Task7.V17
 
             int index = 0;
 
-            Console.WriteLine("\nМассив:");
+            Console.WriteLine("\nМатрица:");
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
                 {
-                    Console.WriteLine($"{value[index]} \t");
+                    mtrx[i, j] = int.Parse(value[index].ToString());
+                    Console.Write($"{mtrx[i, j]} \t");
                     index++;
                 }
                 Console.WriteLine();
             }
 
+            Console.WriteLine();
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
